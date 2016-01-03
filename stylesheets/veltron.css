@@ -296,10 +296,10 @@ html[xmlns] .flexslider .slides {display: block;}
     background: url('http://static.tumblr.com/txezw8k/41Nnoe8dm/loading.gif') no-repeat center center !important;}
 #instafeed img {
     opacity: 1; padding: 0;
-    width: 132px !important;
-    height: 132px !important;
+    width: 132.5px !important;
+    height: 132.5px !important;
     background: transparent;
-    background-size: 132px 132px !important;
+    background-size: 132.5px 132.5px !important;
     transition: .3s ease-in;}
 #instafeed img:hover {
     opacity: .6;
