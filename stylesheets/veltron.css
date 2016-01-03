@@ -1,0 +1,307 @@
+/* ------------------------- HTTP://COFFEENUTSTHEMES.COM (C) -------------------------  */
+
+#searchbar {
+    width: 100%;
+    margin-bottom:20px;
+    box-sizing:border-box;}
+#searchbar input.search_q {
+    width: 95%;
+    color: #444;
+    margin: 0 auto;
+    padding: 4px 7px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-weight: 100;
+    text-align: center;
+    border: none !important;
+    text-transform: uppercase;
+    outline: 0 none !important;
+    font-family: 'Raleway', sans-serif;
+    background: #eaeaea !important;}
+#instagram-box  {
+    padding: 0; 
+    list-style: none; 
+    font-size: 0px; 
+    width:100%;
+    margin: -5px auto 0 auto; 
+    display: inline-block !important;} 
+#instagram-box ul {
+    list-style: none;
+    font-size: 0px; 
+    padding: 0;
+    margin: 0 auto !important;} 
+#instagram-box li {
+    display: inline;}
+#instagram-box li img { 
+    opacity: 1; 
+    padding: 0px; 
+    width:12.5% !important;
+    background: transparent;
+    transition: .3s ease-in;}
+#instagram-box li img:hover {
+    opacity: .6; 
+    background: transparent;
+    transition: .3s ease-out;}
+.envelope {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px; 
+    margin: 10px auto 4px auto;
+    text-align:center;}
+.envel-border:before  {
+    z-index:1;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    content: " ";
+    display: block;
+    text-align:center;
+    margin:0 auto!important;
+    border-top:1px solid #d0d0d0;
+    position:absolute;}
+.envel-border {
+    position:relative;
+    line-height:1.4em;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    letter-spacing:2px;
+    text-transform:uppercase;}
+.envel-border span {
+    z-index:10;
+    padding:15px;
+    position:relative;
+    border:1px solid #d0d0d0;
+    background:#fff;
+    border-radius:50%;}
+#twitter .content:before {
+    content: ''; 
+    border-width: 1px; 
+    border-style: solid; 
+    z-index: 1; 
+    width: 13px; height: 13px; 
+    position: absolute; 
+    display: block; 
+    margin: -17px auto 0 120px; 
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    transform: rotate(45deg); 
+    behavior:url(-ms-transform.htc);}
+#twitter .content {
+    background-color:#fff;
+    border:1px dashed #d0d0d0;
+    text-shadow: none!important;
+    font-size: 11px;
+    line-height: 1.5em;
+    white-space: pre-line;
+    margin: 25px auto 0 auto;
+    font-family: 'helvetica', sans-serif;
+    padding: 10px;} 
+.timw {margin-right:4px;}
+.twttime {
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px !important;
+    margin: 7px auto 0 auto !important; 
+    height: 19px !important; 
+    width: 77px !important; 
+    padding: 0 10px 0 10px !important; 
+    overflow: hidden !important; 
+    text-align: center !important;} 
+p.csbsidelinks a {
+    font-size: 10px;
+    letter-spacing: 1px; 
+    padding: 7px 10px; 
+    background: #fff; 
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    -webkit-transition: .5s ease-in-out; 
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;} 
+p.csbsidelinks a:hover {
+    color: #fff; 
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in; 
+    -o-transition: .5s ease-in; 
+    transition: .5s ease-in;}
+.pags a:hover {
+    opacity:0.6;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out; 
+    -o-transition: .5s ease-in-out; 
+    transition: .5s ease-in-out;}
+.flex-container a:hover,.flex-slider a:hover,
+.flex-container a:focus,.flex-slider a:focus {outline: none;}
+.slides,.slides > li,.flex-control-nav,.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+.flexslider {
+    margin: 0;
+    padding: 0;}
+.flexslider .slides > li {    
+    display: none;
+    -webkit-backface-visibility: hidden;}
+.flexslider .slides img {
+    width: 100%;
+    display: block;}
+.flexslider .slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;}
+html[xmlns] .flexslider .slides {display: block;}
+* html .flexslider .slides {height: 1%;}
+.no-js .flexslider .slides > li:first-child {display: block;}
+.flexslider {
+    z-index:10;
+    max-width:100%;
+    position:relative;
+    margin:40px auto 0 auto;
+    zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides img {height: auto;}
+.flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.carousel li {margin-right: 5px;}
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;}
+.flexslider:hover .flex-direction-nav .flex-next:hover {opacity: 1;}
+.flex-direction-nav .flex-disabled {
+    opacity: 0!important;
+    filter: alpha(opacity=0);
+    cursor: default;}
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    text-align: center;}
+.flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;}
+.flex-control-paging li a {
+    width: 9px;
+    height: 9px;
+    z-index:10;
+    display: block;
+    background: #fff;
+    background: rgba(225, 225, 225, 0.9);
+    cursor: pointer;
+    text-indent: -9999px;
+    margin: -80px auto 10px auto;
+    -webkit-box-shadow: inset 0 0 3px rgba(225, 225, 225, 0.3);
+    -moz-box-shadow: inset 0 0 3px rgba(225, 225, 225, 0.3);
+    -o-box-shadow: inset 0 0 3px rgba(225, 225, 225, 0.3);
+    box-shadow: inset 0 0 3px rgba(225, 225, 225, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;}
+.flex-control-thumbs {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;}
+.flex-control-thumbs li {
+    width: 25%;
+    float: left;
+    margin: 0;}
+.flex-control-thumbs img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: .7;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {
+    opacity: 1;
+    cursor: default;}
+.flexslider ul.slides li .slider-overlay {
+    top:0;
+    left:0;
+    opacity:0;
+    width:100%;
+    height:100%;
+    z-index:-10;
+    margin:0 auto;
+    position:absolute;
+    text-align:center;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    transition:0.5s;}
+.flexslider ul.slides li:hover .slider-overlay {
+    z-index:1;
+    opacity:1;
+    content:'';
+    display:table-cell;
+    vertical-align:middle;
+    background:#000;
+    background:rgba(0, 0, 0, .25);}
+.flexslider ul.slides li .slidecontent {
+    z-index:100;
+    opacity:1;
+    color: #000;
+    padding: 100px;
+    width:900px;
+    height:300px;
+    font-size:40px;
+    text-align:center;
+    display:block;
+    position:absolute;}
+.flexslider ul.slides li:hover .slidecontent {
+    z-index:100;
+    opacity:1;}
+.loading {
+    min-height: 300px;
+    background: url('http://static.tumblr.com/txezw8k/41Nnoe8dm/loading.gif') no-repeat center center !important;}
+#instafeed img {
+    opacity: 1; padding: 0;
+    width: 132px !important;
+    height: 132px !important;
+    background: transparent;
+    background-size: 132px 132px !important;
+    transition: .3s ease-in;}
+#instafeed img:hover {
+    opacity: .6;
+    background: transparent;
+    transition: .3s ease-out;}
