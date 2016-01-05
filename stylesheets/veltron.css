@@ -4,21 +4,39 @@
     width: 100%;
     margin-bottom:20px;
     box-sizing:border-box;}
-#searchbar input.search_q {
-    width: 95%;
+#searchbar input.sbutton[type="submit"]{
+    cursor: pointer;
+    float:right;
+    font-size:13px;
+	width: 15%;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+    margin-top:-30px;
+    color: #545454;
+    border:0!important;
+    z-index:999;outline: none;
+    background:none!important;
+    font-family:"FontAwesome"!important;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;}
+#searchbar input.search_q[type="text"] {
+    width: 82%;
     color: #444;
+    z-index:2;
     margin: 0 auto;
-    padding: 4px 7px;
-    font-size: 9px;
+    padding: 2px 7px;
+    font-size: 10px;
     letter-spacing: 1px;
     line-height: 26px;
     font-weight: 100;
-    text-align: center;
+    text-align: left;
     border: none !important;
     text-transform: uppercase;
-    outline: 0 none !important;
-    font-family: 'Raleway', sans-serif;
-    background: #eaeaea !important;}
+    outline: 0 none !important;}
 #instagram-box  {
     padding: 0; 
     list-style: none; 
